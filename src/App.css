@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+.product_cursor {
+  cursor: pointer;
+}
+.sub_category {
+  color: rgb(41, 104, 177) !important;
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.grid_formate {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.table_foramtitng {
+  width: 100%;
+  padding-left: 5%;
+  height: auto;
+  padding-right: 5%;
+}
+
+.table_foramtitng .MuiPaper-elevation1 {
+  box-shadow: none;
+}
+
+.content_padding_home {
+  padding-top: 1% !important;
+}
+
+.content_padding {
+  padding-top: 7%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.user_data {
+  margin-top: 10% !important;
+  width: 100%;
+  padding-left: 46px;
+}
+.button_formatting {
+  padding: 6px 19px;
+  background-color: #97e9f1;
+  border-radius: 7px;
+  color: #fff;
+}
+
+
+.btn_class_color{
+  color:#138496;;
+ cursor:pointer;
+ margin-top:8px !important
+ 
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Component_main_grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.Card_shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 16px !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .table_foramtitng {
+    width: 100%;
+    overflow: scroll;
+    height: auto;
+  }
+  .user_data {
+    margin-top: 21% !important;
+    width: 100%;
+    padding-left: 1px;
+  }
+  .content_padding {
+    padding-top: 21%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
